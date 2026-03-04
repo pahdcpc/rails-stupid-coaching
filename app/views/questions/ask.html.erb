@@ -1,0 +1,9 @@
+<div class="container mt-5">
+  <h1>Stupid Coaching</h1>
+  <p>Ask your coach anything:</p>
+
+  <form action="/answer" method="get" data-turbo="false" class="form-inline">
+    <input type="text" name="question" placeholder="Your question" class="form-control"> <%# herb:disable html-input-require-autocomplete %>
+    <input type="submit" value="Ask!" class="btn btn-primary ml-2">
+  </form>
+</div>
